@@ -1,0 +1,73 @@
+cff-version: 1.2.0
+message: "If you use this code or the trained models, please cite the article below."
+title: "GreenWest: forest carbon stock estimation in Spain with machine learning (code and models)"
+type: software
+license: MIT
+authors:
+  - family-names: Gabriel-Vegas
+    given-names: Jaime
+    affiliation: "BISITE Research Group, University of Salamanca"
+    orcid: "https://orcid.org/0009-0006-8923-5405"
+  - family-names: Urbón-Jiménez
+    given-names: Maider Araceli
+    affiliation: "BISITE Research Group, University of Salamanca"
+    orcid: "https://orcid.org/0009-0002-6308-4398"
+  - family-names: Armenteros-Cosme
+    given-names: Pablo
+    affiliation: "BISITE Research Group, University of Salamanca"
+    orcid: "https://orcid.org/0009-0009-6046-4986"
+  - family-names: Gil-González
+    given-names: Ana-Belén
+    affiliation: "BISITE Research Group, University of Salamanca"
+    orcid: "https://orcid.org/0000-0001-7235-6151"
+  - family-names: de Luis-Reboredo
+    given-names: Ana
+    affiliation: "BISITE Research Group, University of Salamanca"
+    orcid: "https://orcid.org/0000-0001-5354-9054"
+  - family-names: Pérez-Lancho
+    given-names: Belén
+    affiliation: "BISITE Research Group, University of Salamanca"
+    orcid: "https://orcid.org/0000-0002-0934-8316"
+keywords:
+  - forest carbon
+  - National Forest Inventory
+  - machine learning
+  - stacking
+  - SHAP
+  - Spain
+preferred-citation:
+  type: article
+  title: "Data-driven estimation of forest carbon stocks in Spain: a machine learning approach using National Forest Inventory data"
+  journal: "Ecological Informatics"
+  status: submitted
+  authors:
+    - family-names: Gabriel-Vegas
+      given-names: Jaime
+    - family-names: Urbón-Jiménez
+      given-names: Maider Araceli
+    - family-names: Armenteros-Cosme
+      given-names: Pablo
+    - family-names: Gil-González
+      given-names: Ana-Belén
+    - family-names: de Luis-Reboredo
+      given-names: Ana
+    - family-names: Pérez-Lancho
+      given-names: Belén
+references:
+  - type: dataset
+    title: "Georeferenced Integrated Forest and Carbon Dataset for Spain"
+    doi: "10.71636/0fvh-ad55"
+    url: "http://hdl.handle.net/10366/170079"
+    publisher:
+      name: "GREDOS Repository, University of Salamanca"
+    authors:
+      - family-names: Urbón-Jiménez
+        given-names: Maider Araceli
+      - family-names: Gabriel-Vegas
+        given-names: Jaime
+      - family-names: Gil-González
+        given-names: Ana-Belén
+      - family-names: de Luis-Reboredo
+        given-names: Ana
+      - family-names: Pérez-Lancho
+        given-names: Belén

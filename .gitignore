@@ -1,0 +1,75 @@
+# Modelos entrenados
+**/*.joblib
+
+# Datos crudos y procesados (mantener solo .gitkeep)
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/splits/*
+!data/splits/.gitkeep
+data/predictions/*
+!data/predictions/.gitkeep
+
+# Artifacts de modelos
+models/artifacts/**/*
+!models/artifacts/.gitkeep
+!models/artifacts/*/.gitkeep
+!models/artifacts/*/*/.gitkeep
+models/metrics/*
+!models/metrics/.gitkeep
+
+# Cache SHAP
+figures/**/cache/**/*
+
+# CatBoost genera esto automaticamente en cwd en cada fit() local
+catboost_info/
+
+# Archivos temporales
+*.XP7R0a
+*.tmp
+*.pyc
+*.log
+__pycache__/
+.ipynb_checkpoints/
+.env
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+
+# CSV data files
+*.csv
+# Excepcion: resumenes de metricas pequeños (~200KB), necesarios para
+# reproducir scripts/revision/generar_graficos_estadisticas.py
+!data/estadisticas_por_rango/*.csv
+# Matrices de correlacion/VIF de las 44 variables (scripts/revision/correlacion_44_variables.py)
+!data/revision/*.csv
+
+# Stack5_MLP meta-models used for the scenario figure (16 KB each)
+!models/scenarios/*/*.joblib
+
+# Train/test partition of every published model (scripts/export_test_indices.py)
+!data/splits/split_*.csv
+# Test-set predictions of every model (written by scripts/tables/generar_tablas_y_predicciones.py)
+!tables/supplementary/preds_*.parquet
+tables/supplementary/run_log_*.txt
+!data/species_catalog.csv
+# Bias test of the observed-vs-predicted figure
+!figures/fig62_publicacion/bias_test.csv
+# Results of the sample-size and stand-density experiments (small CSVs)
+!models/metrics/subsampling/
+!models/metrics/subsampling/*.csv
+!models/metrics/npies_sensitivity/
+!models/metrics/npies_sensitivity/comparison_no_npies_*.csv
+!models/metrics/npies_sensitivity/sensitivity_sin_npies_*.csv
+!models/metrics/npies_sensitivity/sensitivity_control_con_npies_*.csv
