@@ -1,0 +1,125 @@
+CONFIGURACION DE ESCENARIOS DE SENSIBILIDAD
+===========================================
+
+--- Escenario: Very Low (P10) ---
+Densidad Total: 2 pies
+FCC: 70.0%, Elev: 993.0m
+[Input Npies > 0] 1cm:2
+
+      [Resto de Features del Modelo]:
+      disesp_id: 1.0000
+      especie_id: 45
+      evi_mean_primavera: 0.6682
+      gndvi_mean_verano: 0.7139
+      gndvi_std_primavera: 0.0645
+      martonneidx_id: 5
+      modcomb_id: 2.0000
+      ndii_mean_primavera: 0.3521
+      nivel2_id: 1.0000
+      orientacion_cat: 3
+      pendiente_cat: 3.0000
+      pr_sum_invierno: 225.5478
+      pr_sum_otoño: 256.0709
+      pr_sum_primavera: 200.1892
+      pr_sum_verano: 113.0497
+      radio: 22.6000
+      rocosidad_id: 2.0000
+      skt_mean_primavera: 12.7826
+      skt_mean_verano: 19.0738
+      skt_std_primavera: 4.3504
+      skt_std_verano: 3.4669
+      tipo_especie: 1
+
+--- Escenario: Low (P35) ---
+Densidad Total: 15 pies
+FCC: 50.0%, Elev: 645.0m
+[Input Npies > 0] 1cm:15
+
+      [Resto de Features del Modelo]:
+      disesp_id: 1.0000
+      especie_id: 45
+      evi_mean_primavera: 0.3111
+      gndvi_mean_verano: 0.5843
+      gndvi_std_primavera: 0.0348
+      martonneidx_id: 5
+      modcomb_id: 2.0000
+      ndii_mean_primavera: 0.0488
+      nivel2_id: 1.0000
+      orientacion_cat: 3
+      pendiente_cat: 1.0000
+      pr_sum_invierno: 239.9115
+      pr_sum_otoño: 255.7718
+      pr_sum_primavera: 185.7108
+      pr_sum_verano: 97.9524
+      radio: 13.5000
+      rocosidad_id: 3.0000
+      skt_mean_primavera: 12.7086
+      skt_mean_verano: 19.1184
+      skt_std_primavera: 4.3513
+      skt_std_verano: 3.3070
+      tipo_especie: 1
+
+--- Escenario: High (P65) ---
+Densidad Total: 76 pies
+FCC: 40.0%, Elev: 963.0m
+[Input Npies > 0] 25cm:14, 35cm:14, 40cm:28, 45cm:15, 65cm:5
+
+      [Resto de Features del Modelo]:
+      disesp_id: 3.0000
+      especie_id: 45
+      estado_id: 4.0000
+      evi_mean_primavera: 0.2747
+      gndvi_mean_verano: 0.4482
+      gndvi_std_primavera: 0.0491
+      martonneidx_id: 4
+      modcomb_id: 1.0000
+      ndii_mean_primavera: 0.0262
+      nivel2_id: 1.0000
+      ocupa: 10.0000
+      orientacion_cat: 7
+      pendiente_cat: 2.0000
+      pr_sum_invierno: 117.1214
+      pr_sum_otoño: 208.6063
+      pr_sum_primavera: 156.9200
+      pr_sum_verano: 65.7922
+      radio: 20.6000
+      rocosidad_id: 1.0000
+      skt_mean_primavera: 12.3038
+      skt_mean_verano: 20.2529
+      skt_std_primavera: 5.2610
+      skt_std_verano: 3.1815
+      tipo_especie: 1
+      tratmasa_id: 2.0000
+
+--- Escenario: Very High (P90) ---
+Densidad Total: 637 pies
+FCC: 65.0%, Elev: 895.0m
+[Input Npies > 0] 1cm:15, 2cm:2, 5cm:1, 10cm:255, 15cm:64, 20cm:159, 25cm:85, 30cm:42, 40cm:14
+
+      [Resto de Features del Modelo]:
+      disesp_id: 1.0000
+      especie_id: 45
+      estado_id: 4.0000
+      evi_mean_primavera: 0.2761
+      gndvi_mean_verano: 0.6147
+      gndvi_std_primavera: 0.1492
+      martonneidx_id: 4
+      modcomb_id: 5.0000
+      ndii_mean_primavera: 0.1389
+      nivel2_id: 1.0000
+      ocupa: 10.0000
+      orientacion_cat: 3
+      pendiente_cat: 2.0000
+      pr_sum_invierno: 176.4910
+      pr_sum_otoño: 249.8749
+      pr_sum_primavera: 183.9940
+      pr_sum_verano: 80.5394
+      radio: 17.5000
+      rocosidad_id: 2.0000
+      skt_mean_primavera: 13.5792
+      skt_mean_verano: 23.6928
+      skt_std_primavera: 5.9833
+      skt_std_verano: 4.2736
+      tipo_especie: 1
+      tratmasa_id: 2.0000
+
