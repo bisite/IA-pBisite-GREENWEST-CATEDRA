@@ -46,6 +46,9 @@ training table  ──►  catedra/training/scripts/   base models → stacking
 | `models/scenarios/` | Stack5-MLP meta-models used for the carbon scenarios |
 | `figures/` | Figures |
 
+Some notebooks are too large for the GitHub viewer; they can be browsed, with their outputs, through nbviewer:
+[`evaluacion_ifn2.ipynb`](https://nbviewer.org/github/bisite/IA-pBisite-GREENWEST-CATEDRA/blob/main/notebooks/evaluacion/exploracion/evaluacion_ifn2.ipynb), [`evaluacion_ifn3.ipynb`](https://nbviewer.org/github/bisite/IA-pBisite-GREENWEST-CATEDRA/blob/main/notebooks/evaluacion/exploracion/evaluacion_ifn3.ipynb), [`evaluacion_ifn2_3.ipynb`](https://nbviewer.org/github/bisite/IA-pBisite-GREENWEST-CATEDRA/blob/main/notebooks/evaluacion/exploracion/evaluacion_ifn2_3.ipynb) and [`5.EDA.ipynb`](https://nbviewer.org/github/bisite/IA-pBisite-GREENWEST-CATEDRA/blob/main/catedra/pipeline/5.EDA.ipynb).
+
 ## Where each result comes from
 
 | Result | Code | Output |
