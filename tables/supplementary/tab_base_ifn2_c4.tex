@@ -1,0 +1,23 @@
+\begin{table}[H]
+    \centering
+    \caption{Modelos Base IFN2-only (c4)}
+    \label{tab:base_ifn2_c4}
+    \begin{tabular}{lrrrrrr}
+        \toprule
+        Modelo & $R^2_{\text{test}}$ & RMSE$_{\text{test}}$ & MAE$_{\text{test}}$ & wMAPE & SMAPE & Bias \\
+        \midrule
+        \textbf{LightGBM} & \textbf{0.712} & \textbf{26.435} & \textbf{14.755} & \textbf{35.823} & \textbf{47.593} & \textbf{-0.401} \\
+        XGBoost & 0.704 & 26.779 & 14.773 & 35.867 & 47.452 & -0.434 \\
+        CatBoost & 0.701 & 26.927 & 15.066 & 36.578 & 49.284 & -0.753 \\
+        BaggedDT & 0.676 & 28.036 & 15.683 & 38.075 & 49.869 & -0.195 \\
+        GBDT & 0.673 & 28.161 & 15.614 & 37.907 & 50.513 & -0.699 \\
+        RandomForest & 0.663 & 28.595 & 15.807 & 38.378 & 49.750 & -0.376 \\
+        MLP & 0.637 & 29.650 & 15.543 & 37.735 & 49.907 & -7.176 \\
+        BayesianNN & 0.606 & 30.904 & 17.384 & 42.205 & 56.359 & -0.697 \\
+        KNN & 0.565 & 32.480 & 17.610 & 42.755 & 54.696 & -5.373 \\
+        SVR & 0.445 & 36.667 & 17.361 & 42.150 & 52.112 & -8.338 \\
+        AdaBoost & -2.126 & 87.062 & 81.700 & 198.354 & 118.313 & 78.210 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+

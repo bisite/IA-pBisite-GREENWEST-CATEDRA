@@ -1,0 +1,23 @@
+\begin{table}[H]
+    \centering
+    \caption{Modelos Base IFN2-only (carbono_bruto4)}
+    \label{tab:base_ifn2_carbono_bruto4}
+    \begin{tabular}{lrrrrrr}
+        \toprule
+        Modelo & $R^2_{\text{test}}$ & RMSE$_{\text{test}}$ & MAE$_{\text{test}}$ & wMAPE & SMAPE & Bias \\
+        \midrule
+        \textbf{CatBoost} & \textbf{0.748} & \textbf{19.071} & \textbf{11.036} & \textbf{38.035} & \textbf{72.181} & \textbf{0.034} \\
+        LightGBM & 0.747 & 19.121 & 10.858 & 37.423 & 71.698 & 0.042 \\
+        XGBoost & 0.742 & 19.300 & 10.962 & 37.780 & 71.609 & -0.004 \\
+        GBDT & 0.732 & 19.692 & 11.550 & 39.809 & 73.147 & 0.016 \\
+        RandomForest & 0.729 & 19.770 & 11.294 & 38.925 & 70.570 & 0.013 \\
+        BaggedDT & 0.728 & 19.832 & 11.349 & 39.114 & 70.434 & 0.182 \\
+        BayesianNN & 0.693 & 21.069 & 12.830 & 44.220 & 79.896 & -0.076 \\
+        MLP & 0.690 & 21.162 & 11.419 & 39.356 & 76.074 & -3.511 \\
+        KNN & 0.632 & 23.046 & 12.994 & 44.784 & 76.109 & -3.677 \\
+        SVR & 0.566 & 25.034 & 12.818 & 44.177 & 77.708 & -6.476 \\
+        AdaBoost & -0.538 & 47.138 & 41.856 & 144.261 & 114.694 & 37.323 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
