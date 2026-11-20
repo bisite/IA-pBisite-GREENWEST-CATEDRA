@@ -1,0 +1,5 @@
+target,model,n_test,mean_observed,n_obs_above,pct_obs_above,mean_obs_above,mean_pred_above,n_pred_above,a_excl_pred_above,p_a_excl_pred_above,b_excl_pred_above,p_b_excl_pred_above,n_obs_below,mean_obs_below,mean_pred_below,n_negative,pct_negative
+c4,LightGBM,20605,38.8632,37,0.179568,599.911,343.548,24,-0.721926,0.000534741,1.01122,0.0031724,5958,4.88425,9.94101,58,0.281485
+c4,Stack5 MLP,20605,38.8632,37,0.179568,599.911,352.374,25,-0.525714,0.00995647,1.00318,0.389894,5958,4.88425,9.95014,0,0
+carbono_bruto4,CatBoost,26664,20.8084,13,0.0487549,310.158,181.907,1,-0.0342047,0.734664,1.00896,0.000734121,15629,1.75899,3.54626,3240,12.1512
+carbono_bruto4,Stack5 MLP,26664,20.8084,13,0.0487549,310.158,184.584,1,0.0570535,0.568803,0.998971,0.69296,15629,1.75899,3.51178,1036,3.88539
