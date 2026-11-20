@@ -1,0 +1,42 @@
+# Packages used by the data pipeline (catedra/pipeline/), in addition to
+# Jupyter. The model training and analysis scripts use requirements-lock.txt
+# at the repository root.
+
+# Download and reading of the NFI files
+requests
+urllib3
+tqdm
+py7zr
+dbfread
+openpyxl
+pandas
+numpy
+
+# Spatial data and maps
+geopandas
+shapely
+folium
+rasterio
+
+# Database (MySQL)
+SQLAlchemy
+mysql-connector-python
+python-dotenv
+
+# Google Earth Engine (ERA5-Land, Landsat, terrain)
+earthengine-api
+geemap
+halo
+print-color
+pyboxen
+
+# Modelling and exploratory analysis
+scikit-learn
+catboost
+scipy
+statsmodels
+matplotlib
+seaborn
+
+# Notebooks
+ipykernel
